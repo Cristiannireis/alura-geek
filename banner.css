@@ -1,0 +1,93 @@
+.banner{
+    background-image: url("../alurageek/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 352px;
+    top: 115px;
+    display: flex;
+   
+}
+.banner__apresentacao{
+   
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4.5% 4.5% ;
+  
+    position: static;
+    width: 100%;
+    height: 100%;
+    left: 152px; 
+    padding: 0 0;
+  
+}
+.banner__titulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.banner__descricao{
+    font-size: 1.4em;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.Botao2 {
+   
+    width: 150px;
+    height: 51px;
+    left: 0px;
+    top: 119px;
+
+    background: #2A7AE4;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+.Botao2:hover{
+    font-weight: bold;;
+    cursor: pointer;
+    background: #5595E9;
+}
+
+@media screen and (max-width: 545px) {
+    .banner{
+        height: auto;
+        width: 100%;
+    }
+    .banner__titulo{
+        font-size: .8em;
+        line-height: .8em;
+        margin: 8px 0;
+      
+    }
+    
+    .banner__apresentacao{
+        position: static;
+        width: 100%;      
+        top: 0px;
+        margin: 0;
+        padding: 2%;
+
+    }
+    
+    .banner__descricao{
+        font-size: .6em;
+        text-shadow: 0.2em 0.2em black;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 0;    
+
+    }
+    .Botao2{
+        width: 100px;
+        height: 20px;
+        font-size: 0.6em;
+        margin-top: 5px;
+        
+    }
+}
+@media screen and (max-width: 920px);
